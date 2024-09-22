@@ -6,7 +6,7 @@ on:
 jobs: 
   super-lint:
     name: Lint code base
-    runs-on: windows-latest
+    runs-on: linux-latest
 
     steps: 
       - name: Checkout code
